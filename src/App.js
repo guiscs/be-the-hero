@@ -1,26 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import './global.css'
+
+// import Header from './Header';
+import Logon from './pages/Logon';
 
 function App() {
+//   const [contador, setCounter] = useState(0);
+
+// State:
+// array [valor, funcaoDeAtualizacao]
+
+//   function incrementar(){
+//     setCounter(contador + 1);
+//   }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello Omnistack!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Header >Contador: {contador}</Header>
+      <button onClick={incrementar}>Incrementar</button> */}
+
+      <Logon></Logon>
     </div>
-  ); 
-}
+    ); 
+  }
 
 export default App;

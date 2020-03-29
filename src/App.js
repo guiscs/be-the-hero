@@ -3,7 +3,7 @@ import React from 'react';
 import './global.css'
 
 // import Header from './Header';
-import Logon from './pages/Logon';
+import Routes from './routes';
 
 function App() {
 //   const [contador, setCounter] = useState(0);
@@ -16,12 +16,13 @@ function App() {
 //   }
 
   return (
-    <div>
-      {/* <Header >Contador: {contador}</Header>
-      <button onClick={incrementar}>Incrementar</button> */}
+    // <div>
+    //   {/* <Header >Contador: {contador}</Header>
+    //   <button onClick={incrementar}>Incrementar</button> */}
 
-      <Logon></Logon>
-    </div>
+
+    // </div>
+    <Routes />
     ); 
   }
 

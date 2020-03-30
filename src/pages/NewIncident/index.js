@@ -68,6 +68,7 @@ export default function NewIncidet(){
                     />
                     <input 
                     placeholder="Valor em Reais"
+                    type="number"
                     value={value}
                     onChange={e=> setValue(e.target.value)}
                     />
